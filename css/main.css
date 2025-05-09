@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+button, input {
+    border: none; /* Сбрасывает границы для кнопок и полей ввода */
+    background: none; 
+  }
+
+.btn{
+  display: block;
+  width: 247px;
+  padding: 20px;
+  transition: all 0.5s ease;
+}  
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+  background:linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), url(/img/istockphoto-1131534768-1024x1024.jpg) no-repeat center top/ cover;
+  text-align: center;
+  padding-top: 40px;;
+  padding-bottom: 50px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.offer__title-btn{
+  font-size: 15px;
+  width: 239px;
+  padding: 15px;
+  background-color:white;
+  border-radius: 30px;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  }
+
+.offer__title-btn:hover{
+  background-color:grey
+}
+
+.offer__title{
+  font-size: 60px;
+  color: #fff;
+  margin-top: 50px; 
+
+}
+
+.offer__text{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 40px;
+  
+}
+
+.offer__btn{
+color: #fff;
+background-color:rgba(35, 207, 125, 1);
+border-radius: 30px;
+font-weight: 800;
+letter-spacing: 1px;
+margin: 30px auto;
+}
+
+ .offer__btn:hover{
+  background-color:rgb(62, 253, 155);
+  color: #000;
+ }
+ .btn{
+  display: block;
+  width: 247px;
+  padding: 20px;
+  transition: all 0.5s ease;
+}  
+.offer__arrow{
+  margin-top: 150px;
+  transition: all 0.5s ease;
+  opacity: 0.5;
+  
+
+
+}
+.offer__arrow:hover{
+  opacity: 1;
+
+
+}
+
+.routs{
+  padding-top: 50px;
+
+}
+.routs__title{
+  text-align: center;
+  font-size: 30px;
+}
+.wrap{
+  display: flex;
+   
+ 
+}
