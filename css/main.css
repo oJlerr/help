@@ -144,3 +144,15 @@ margin: 30px auto;
   color: rgba(48, 64, 65, 1);
   
 }
+
+.section__routs {
+    width: 100%;
+    max-width: 1200px; /* или другая подходящая ширина */
+    margin: 0 auto;
+    padding: 20px; /* добавьте отступы, если нужно */
+    box-sizing: border-box; /* для учета отступов в ширине */
+}
+
+.offer__title{
+  background-color: #fff;
+}
